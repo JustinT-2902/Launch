@@ -9,10 +9,12 @@ const Home = () => {
         <div>
           <p className="Heading">Hello There!</p>
           <div className="Sub-Head">
-            <span className="Prefix">I'm </span>
-            <span className="name">JustinT,</span>
-            <p>Sales Executive</p>
-            <p>Relationship Manager</p>
+            <div className="Full-Name">
+              <span className="Prefix">I'm </span>
+              <span className="name">JustinT,</span>
+            </div>
+            <p className="Position">Sales Executive</p>
+            <p className="Position">Relationship Manager</p>
           </div>
           <div className="Action-Container">
             <div className="View-Container">

@@ -10,11 +10,11 @@ import Services from "./pages/Services";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Launch">
       <Navbar />
       <Routes>
-        <Route path="/Launch" element={<Home />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/Services" element={<Services />} />
       </Routes>
       <Footer />
     </Router>

@@ -1,5 +1,6 @@
 .home-page {
   margin-top: 150px;
+  font-family: "Poppins";
 }
 
 .Introduction {
@@ -22,11 +23,18 @@
   font-weight: 500;
 }
 
-.Sub-Head p, span{
-  font-family: "Poppins";
+.Sub-Head{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
   font-size: 40px;
   font-weight: 600;
-  color: black;
+}
+
+.Full-Name {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
 }
 
 .Prefix {
@@ -37,6 +45,11 @@
   color: #d4a017;
   text-decoration: underline;
   font-style: italic;
+}
+
+.Position {
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .Action-Container {
@@ -91,6 +104,28 @@
   border-radius: 25px;
   cursor: pointer;
 }
+
+@media (max-width: 430px) {
+  .Green-Line {
+    width: 40px;
+    margin-top: 33px;
+    height: 4px;
+  }
+  .Heading {
+    font-size: 14px;
+  }
+  .Prefix {
+    font-size: 16px;
+  }
+  .name {
+    font-size: 16px;
+  }
+  .Position {
+    font-size: 16px;
+  }
+}
+
+/* About Me Section */
 
 .Break-Line{
   width: 100%;
@@ -379,6 +414,7 @@ font-size: 16px;
   flex-direction: column;
   margin-top: 80px;
   background-color: var(--white-smoke);
+  
 }
 
 .Tools-Head-Container {
@@ -400,7 +436,7 @@ font-size: 16px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0px 100px 100px 100px;
+  width: 1600px;
   gap: 20px;
   flex-wrap: wrap;
 }
