@@ -16,7 +16,7 @@ const Home = () => {
             <p className="Position">Sales Executive</p>
             <p className="Position">Relationship Manager</p>
           </div>
-          <div className="Action-Container">
+          <div className="Action-Container ActionHead ">
             <div className="View-Container">
               <div className="View">View My Portfolio</div>
               <div className="Arrow-Container">
@@ -72,8 +72,8 @@ const Home = () => {
               Relationship Manager at DNBC Financial Group (BIN Group
               Coperation)
             </p>
-            <div className="ActionT-Container">
-              <div className="ViewT-Container">
+            <div className="Action-Container Action-About">
+              <div className="View-Container View-About">
                 <div className="View">More About Me</div>
                 <div className="Arrow-Container">
                   <img
@@ -107,8 +107,8 @@ const Home = () => {
             <p className="Provide">I PROVIDE</p>
           </div>
           <div>
-            <div className="ActionS-Container">
-              <div className="ViewS-Container">
+            <div className="Action-Container Action-Services">
+              <div className="View-Container">
                 <div className="View">View My Services</div>
                 <div className="Arrow-Container">
                   <img
@@ -378,8 +378,8 @@ const Home = () => {
             <p className="Provide">I HAVE WORKED ON</p>
           </div>
           <div>
-            <div className="ActionP-Container">
-              <div className="ViewP-Container">
+            <div className="Action-Container Action-Projects">
+              <div className="View-Container">
                 <div className="View">View My Projects</div>
                 <div className="Arrow-Container">
                   <img

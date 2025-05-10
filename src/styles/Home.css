@@ -27,7 +27,7 @@
   display: flex;
   flex-direction: column;
   gap: 0px;
-  font-size: 100px;
+  font-size: 40px;
   font-weight: 600;
 }
 
@@ -56,17 +56,20 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 10px;
+}
+
+.ActionHead {
   margin-top: 30px;
 }
 
 .View-Container{
   display: flex;
   flex-direction: row;
-  font-family: "Poppins";
   align-items: center;
   border: 2px solid;
-  border-radius: 25px;
-  padding: 1px 2px;
+  border-radius: 50px;
+  padding: 2px;
   background-color: #dfad2e;
   cursor: pointer;
 }
@@ -82,16 +85,19 @@
 }
 
 .Arrow-Container {
+  display: flex;
+  width: 45px;
+  height: 45px;
   background-color: white;
   border-radius: 50px;
-  margin: 2px 2px 2px 20px;
-  padding: 8px 12px;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .Arrow-Icon {
   width: 20px;
   height: 20px;
-  padding-top: 5px;
 }
 
 .Hire {
@@ -106,8 +112,14 @@
 }
 
 @media (max-width: 430px) {
+  .home-page {
+    margin-top: 90px;
+  }
+  .Introduction{
+    margin-bottom: 40px;
+  }
   .Green-Line {
-    width: 40px;
+    width: 25px;
     margin-top: 33px;
     height: 4px;
   }
@@ -122,6 +134,29 @@
   }
   .Position {
     font-size: 16px;
+  }
+  .ActionHead {
+  margin-top: 15px;
+}
+  .View-Container {
+    padding: 1px;
+  }
+  .View{
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+  .Arrow-Container{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+  }
+  .Arrow-Icon {
+    width: 12px;
+    height: 12px;
+  }
+  .Hire {
+    font-size: 10px;
+    padding: 5px 10px;
   }
 }
 
@@ -200,46 +235,12 @@ font-family: "Poppins";
 font-size: 16px;
 }
 
-.ActionT-Container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.Action-About {
   margin-top: 50px;
 }
 
-.ViewT-Container{
-  display: flex;
-  flex-direction: row;
-  font-family: "Poppins";
-  align-items: center;
+.View-About{
   border: 2px solid white;
-  border-radius: 25px;
-  padding: 1px;
-  background-color: #dfad2e;
-  cursor: pointer;
-}
-
-.View {
-  font-family: "Poppins";
-  font-weight: 500;
-  font-size: 16px;
-  background-color: #4a704a;
-  color: white;
-  padding: 10px 30px;
-  border-radius: 25px;
-}
-
-.Arrow-Container {
-  background-color: white;
-  border-radius: 50px;
-  margin: 2px 2px 2px 20px;
-  padding: 8px 12px;
-}
-
-.Arrow-Icon {
-  width: 20px;
-  height: 20px;
-  padding-top: 5px;
 }
 
 .CV-Container {
@@ -313,46 +314,8 @@ font-size: 16px;
   color:#4a704a;
 }
 
-.ActionS-Container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-bottom: 16px;
-}
-
-.ViewS-Container{
-  display: flex;
-  flex-direction: row;
-  font-family: "Poppins";
-  align-items: center;
-  border: 2px solid;
-  border-radius: 25px;
-  padding: 1px;
-  background-color: #dfad2e;
-  cursor: pointer;
-}
-
-.View {
-  font-family: "Poppins";
-  font-weight: 500;
-  font-size: 16px;
-  background-color: #4a704a;
-  color: white;
-  padding: 10px 30px;
-  border-radius: 25px;
-}
-
-.Arrow-Container {
-  background-color: white;
-  border-radius: 50px;
-  margin: 2px 2px 2px 20px;
-  padding: 8px 12px;
-}
-
-.Arrow-Icon {
-  width: 20px;
-  height: 20px;
-  padding-top: 5px;
+.Action-Services {
+  margin-bottom: 17px;
 }
 
 .Provide{
@@ -524,46 +487,8 @@ font-size: 16px;
   color: #4a704a;
 }
 
-.ActionP-Container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-bottom: 16px;
-}
-
-.ViewP-Container {
-  display: flex;
-  flex-direction: row;
-  font-family: "Poppins";
-  align-items: center;
-  border: 2px solid;
-  border-radius: 25px;
-  padding: 1px;
-  background-color: #dfad2e;
-  cursor: pointer;
-}
-
-.View {
-  font-family: "Poppins";
-  font-weight: 500;
-  font-size: 16px;
-  background-color: #4a704a;
-  color: white;
-  padding: 10px 30px;
-  border-radius: 25px;
-}
-
-.Arrow-Container {
-  background-color: white;
-  border-radius: 50px;
-  margin: 2px 2px 2px 20px;
-  padding: 8px 12px;
-}
-
-.Arrow-Icon {
-  width: 20px;
-  height: 20px;
-  padding-top: 5px;
+.Action-Projects {
+  margin-bottom: 17px;
 }
 
 .Projects-Sub {
