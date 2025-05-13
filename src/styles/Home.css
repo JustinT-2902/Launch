@@ -160,6 +160,232 @@
   }
 }
 
+/* Large screens and laptops */
+@media (max-width: 1440px) {
+  .home-page {
+    margin-top: 130px;
+  }
+  .Services-Sub {
+    margin: 50px 50px;
+  }
+  .Projects-Sub {
+    margin: 50px 50px;
+  }
+  .Tool-Sub-Container {
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+/* Tablets and smaller laptops */
+@media (max-width: 1024px) {
+  .home-page {
+    margin-top: 120px;
+  }
+  .Introduction {
+    margin-bottom: 60px;
+    padding: 0 20px;
+  }
+  .Green-Line {
+    width: 80px;
+    margin-top: 55px;
+  }
+  .Sub-Head {
+    font-size: 35px;
+  }
+  .Position {
+    font-size: 35px;
+  }
+  .About-Me {
+    height: auto;
+    padding: 60px 20px;
+  }
+  .About-Me-Content {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+  .Description {
+    font-size: 25px;
+  }
+  .Services-Head, 
+  .Projects-Head {
+    margin: 0 50px;
+  }
+  .Services-Sub-Container {
+    width: calc(50% - 15px);
+    min-width: 280px;
+  }
+  .Projects-Sub-Container {
+    width: calc(50% - 15px);
+    min-width: 280px;
+  }
+  .Tool-Icon-Field {
+    width: 120px;
+  }
+}
+
+/* Tablets - Portrait */
+@media (max-width: 768px) {
+  .Introduction {
+    padding: 0 15px;
+  }
+  .Sub-Head {
+    font-size: 32px;
+  }
+  .Position {
+    font-size: 32px;
+  }
+  .About-Me-Content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Description {
+    font-size: 22px;
+  }
+  .Services-Head, 
+  .Projects-Head {
+    margin: 0 30px;
+  }
+  .Services-Sub,
+  .Projects-Sub {
+    margin: 30px;
+    justify-content: center;
+  }
+  .Services-Sub-Container,
+  .Projects-Sub-Container {
+    width: 100%;
+    max-width: 500px;
+  }
+  .Tool-Sub-Container {
+    gap: 20px;
+  }
+  .Tool-Icon-Field {
+    width: 100px;
+  }
+}
+
+/* Mobile devices - Portrait */
+@media (max-width: 430px) {
+  .home-page {
+    margin-top: 90px;
+  }
+  .Introduction {
+    margin-bottom: 40px;
+    padding: 0 10px;
+  }
+  .Green-Line {
+    width: 40px;
+    height: 4px;
+    margin-top: 33px;
+  }
+  .Heading {
+    font-size: 16px;
+  }
+  .Sub-Head {
+    font-size: 24px;
+  }
+  .Position {
+    font-size: 24px;
+  }
+  .View,
+  .Hire {
+    font-size: 12px;
+    padding: 8px 15px;
+  }
+  .About-Me {
+    padding: 40px 10px;
+  }
+  .About-Me-Content {
+    padding: 0 10px;
+  }
+  .Description {
+    font-size: 20px;
+  }
+  .Sub-Description {
+    font-size: 14px;
+  }
+  .Services-Head, 
+  .Projects-Head {
+    margin: 0 20px;
+  }
+  .Services-Sub,
+  .Projects-Sub {
+    margin: 20px;
+  }
+  .Tool-Icon-Field {
+    width: 90px;
+  }
+  .Tool-Icon-Container {
+    width: 80px;
+    height: 80px;
+  }
+  .Tool-Icon {
+    width: 35px;
+    height: 35px;
+  }
+  .Icon-Name {
+    font-size: 14px;
+  }
+  .Projects-Title {
+    font-size: 14px;
+  }
+  .Project-Name {
+    font-size: 24px;
+  }
+  .ArrowP-Icon {
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+  }
+}
+
+/* Very small devices */
+@media (max-width: 320px) {
+  .home-page {
+    margin-top: 80px;
+  }
+  .Introduction {
+    padding: 0 8px;
+  }
+  .Green-Line {
+    width: 30px;
+  }
+  .Sub-Head {
+    font-size: 20px;
+  }
+  .Position {
+    font-size: 20px;
+  }
+  .View,
+  .Hire {
+    font-size: 11px;
+    padding: 6px 12px;
+  }
+  .Services-Head, 
+  .Projects-Head {
+    margin: 0 15px;
+  }
+  .Services-Sub,
+  .Projects-Sub {
+    margin: 15px;
+  }
+  .Tool-Icon-Field {
+    width: 80px;
+  }
+  .Tool-Icon-Container {
+    width: 70px;
+    height: 70px;
+  }
+  .Tool-Icon {
+    width: 30px;
+    height: 30px;
+  }
+  .Icon-Name {
+    font-size: 12px;
+  }
+}
+
 /* About Me Section */
 
 .Break-Line{
