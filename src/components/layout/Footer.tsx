@@ -6,11 +6,10 @@ const Footer = () => {
     <div className="Footer">
       <div className="Contact-Container">
         <div className="Contact-request-Container">
-          <div className="Projects-Head-Container">
-            <div className="Project-Head">
-              <div className="Projects-Head-Content">
-                <hr className="YellowS-Line" />
-                <p className="Sv">Contact me</p>
+            <div className="All-Heading">
+              <div className="Heading-Content">
+                <hr className="Yellow-Line" />
+                <p className="Heading-Text">Contact me</p>
               </div>
               <img
                 src=".\assets\images\Navbar\Logo.png"
@@ -73,18 +72,17 @@ const Footer = () => {
 
               <button className="Request-Button">Send Request</button>
             </div>
-          </div>
         </div>
-
-        <div className="Informations">
+        <div className="Informations-Menu">
+          <div className="Informations">
           <div className="Contact-Information">
             <p className="Contact-Title">LET'S CHAT</p>
             <p className="Contact-Details">JustinT.works@gmail.com</p>
             <p className="Contact-Details">+84 917868529</p>
           </div>
 
-          <div>
-            <div className="Follow">MY SOCIAL SITES</div>
+          <div className="Contact-Information">
+            <div className="Contact-Title">MY SOCIAL SITES</div>
             <div>
               <div className="Media-Container">
                 <a href="">
@@ -112,7 +110,7 @@ const Footer = () => {
                   <img
                     src=".\assets\images\Footer\TikTok-Footer.png"
                     alt=""
-                    className="Tiktok-icon"
+                    className="media-icon"
                   />
                 </a>
               </div>
@@ -122,15 +120,16 @@ const Footer = () => {
           <div>
             <p className="Right">© 2025 Made by JustinT</p>
           </div>
-        </div>
-        <div className="Menu-container">
-          <p className="Menu">NAVIGATION</p>
+          </div>
+          <div className="Menu-container">
+          <p className="Contact-Title">NAVIGATION</p>
           <p className="Menu-chosen">Home</p>
           <p className="Menu-chosen">About</p>
           <p className="Menu-chosen">Services</p>
           <p className="Menu-chosen">Resume</p>
           <p className="Menu-chosen">Project</p>
           <p className="Menu-chosen">Contact</p>
+          </div>
         </div>
       </div>
     </div>

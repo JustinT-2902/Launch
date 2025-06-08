@@ -33,10 +33,12 @@ const Home = () => {
       </div>
 
       <hr className="Break-Line" />
-      <div className="About-Me">
-        <div className="About-Me-Image"></div>
+      <div className="About-Me-Container">
+        <div className="ProfileImage-Container">
+          <img src=".\assets\images\Home\Profile Image.png" alt="" className="ProfileImage" />
+        </div>
         <div className="About-Me-Content">
-          <hr className="Yellow-Line" />
+          <hr className="YellowA-Line" />
           <div className="About">
             <p className="Ab">About Me</p>
             <div>
@@ -98,13 +100,13 @@ const Home = () => {
       <hr className="Break-Line" />
 
       <div className="Services">
-        <div className="Services-Head">
-          <div className="Services-Head-Container">
-            <div className="Services-Head-Content">
-              <hr className="YellowS-Line" />
-              <p className="Sv">Services</p>
+        <div className="All-Heading">
+          <div className="Heading-Container">
+            <div className="Heading-Content">
+              <hr className="Yellow-Line" />
+              <p className="Heading-Text">Services</p>
             </div>
-            <p className="Provide">I PROVIDE</p>
+            <p className="Sub-Heading-Text">I PROVIDE</p>
           </div>
           <div>
             <div className="Action-Container Action-Services">
@@ -159,12 +161,12 @@ const Home = () => {
       </div>
 
       <div className="Tools">
-        <div className="Tools-Head-Container">
-          <div className="Tools-Head-Content">
-            <hr className="YellowS-Line" />
-            <p className="Sv">Tools</p>
+        <div className="Heading-Container Heading-Tools">
+          <div className="Heading-Content">
+            <hr className="Yellow-Line" />
+            <p className="Heading-Text">Tools</p>
           </div>
-          <p className="Provide">I CAN USE</p>
+          <p className="Sub-Heading-Text">I CAN USE</p>
         </div>
 
         <div className="Tool-Sub-Container">
@@ -176,7 +178,7 @@ const Home = () => {
                 className="Tool-Icon"
               />
             </div>
-            <p className="Icon-Name">Adobe Premiere</p>
+            <div className="Icon-Name">Adobe Premiere</div>
           </div>
 
           <div className="Tool-Icon-Field">
@@ -187,7 +189,7 @@ const Home = () => {
                 className="Tool-Icon"
               />
             </div>
-            <p className="Icon-Name">Adobe Photoshop</p>
+            <div className="Icon-Name">Adobe Photoshop</div>
           </div>
 
           <div className="Tool-Icon-Field">
@@ -198,7 +200,7 @@ const Home = () => {
                 className="Tool-Icon"
               />
             </div>
-            <p className="Icon-Name">Adobe Illustrator</p>
+            <div className="Icon-Name">Adobe Illustrator</div>
           </div>
 
           <div className="Tool-Icon-Field">
@@ -209,7 +211,7 @@ const Home = () => {
                 className="Tool-Icon"
               />
             </div>
-            <p className="Icon-Name">Pinterest</p>
+            <div className="Icon-Name">Pinterest</div>
           </div>
 
           <div className="Tool-Icon-Field">
@@ -220,7 +222,7 @@ const Home = () => {
                 className="Tool-Icon"
               />
             </div>
-            <p className="Icon-Name">Figma</p>
+            <div className="Icon-Name">Figma</div>
           </div>
 
           <div className="Tool-Icon-Field">
@@ -231,7 +233,7 @@ const Home = () => {
                 className="Tool-Icon"
               />
             </div>
-            <p className="Icon-Name">Canva</p>
+            <div className="Icon-Name">Canva</div>
           </div>
 
           <div className="Tool-Icon-Field">
@@ -242,7 +244,7 @@ const Home = () => {
                 className="Tool-Icon"
               />
             </div>
-            <p className="Icon-Name">Capcut</p>
+            <div className="Icon-Name">Capcut</div>
           </div>
 
           <div className="Tool-Icon-Field">
@@ -253,7 +255,7 @@ const Home = () => {
                 className="Tool-Icon"
               />
             </div>
-            <p className="Icon-Name">Zoho</p>
+            <div className="Icon-Name">Zoho</div>
           </div>
 
           <div className="Tool-Icon-Field">
@@ -264,7 +266,7 @@ const Home = () => {
                 className="Tool-Icon"
               />
             </div>
-            <p className="Icon-Name">Notion</p>
+            <div className="Icon-Name">Notion</div>
           </div>
 
           <div className="Tool-Icon-Field">
@@ -275,7 +277,7 @@ const Home = () => {
                 className="Tool-Icon"
               />
             </div>
-            <p className="Icon-Name">ChatGPT</p>
+            <div className="Icon-Name">ChatGPT</div>
           </div>
 
           <div className="Tool-Icon-Field">
@@ -286,7 +288,7 @@ const Home = () => {
                 className="Tool-Icon"
               />
             </div>
-            <p className="Icon-Name">Grok AI</p>
+            <div className="Icon-Name">Grok AI</div>
           </div>
 
           <div className="Tool-Icon-Field">
@@ -297,7 +299,7 @@ const Home = () => {
                 className="Tool-Icon"
               />
             </div>
-            <p className="Icon-Name">Trello</p>
+            <div className="Icon-Name">Trello</div>
           </div>
 
           <div className="Tool-Icon-Field">
@@ -308,7 +310,7 @@ const Home = () => {
                 className="Tool-Icon"
               />
             </div>
-            <p className="Icon-Name">Google Drive</p>
+            <div className="Icon-Name">Google Drive</div>
           </div>
 
           <div className="Tool-Icon-Field">
@@ -319,7 +321,7 @@ const Home = () => {
                 className="Tool-Icon"
               />
             </div>
-            <p className="Icon-Name">MS Teams</p>
+            <div className="Icon-Name">MS Teams</div>
           </div>
 
           <div className="Tool-Icon-Field">
@@ -330,7 +332,7 @@ const Home = () => {
                 className="Tool-Icon"
               />
             </div>
-            <p className="Icon-Name">VS Code</p>
+            <div className="Icon-Name">VS Code</div>
           </div>
 
           <div className="Tool-Icon-Field">
@@ -341,7 +343,7 @@ const Home = () => {
                 className="Tool-Icon"
               />
             </div>
-            <p className="Icon-Name">Apps Script</p>
+            <div className="Icon-Name">Apps Script</div>
           </div>
 
           <div className="Tool-Icon-Field">
@@ -352,7 +354,7 @@ const Home = () => {
                 className="Tool-Icon"
               />
             </div>
-            <p className="Icon-Name">InVideo AI</p>
+            <div className="Icon-Name">InVideo AI</div>
           </div>
 
           <div className="Tool-Icon-Field">
@@ -363,19 +365,19 @@ const Home = () => {
                 className="Tool-Icon"
               />
             </div>
-            <p className="Icon-Name">WordPress</p>
+            <div className="Icon-Name">WordPress</div>
           </div>
         </div>
       </div>
 
       <div className="Projects">
-        <div className="Projects-Head">
-          <div className="Projects-Head-Container">
-            <div className="Projects-Head-Content">
-              <hr className="YellowS-Line" />
-              <p className="Sv">Projects</p>
+        <div className="All-Heading">
+          <div className="Heading-Container">
+            <div className="Heading-Content">
+              <hr className="Yellow-Line" />
+              <p className="Heading-Text">Projects</p>
             </div>
-            <p className="Provide">I HAVE WORKED ON</p>
+            <p className="Sub-Heading-Text">I HAVE WORKED ON</p>
           </div>
           <div>
             <div className="Action-Container Action-Projects">
