@@ -380,7 +380,7 @@
     gap: 12px;
   }
   .Contact-Name {
-    font-size: 14px;
+    font-size: 12px;
   }
   .Contact-Input {
     height: 35px;
@@ -393,13 +393,13 @@
     padding: 7px;
   }
   .Contact-Title {
-    font-size: 16px;
+    font-size: 14px;
   }
   .Quote,
   .Contact-Details,
   .Right,
   .Menu-chosen {
-    font-size: 12px;
+    font-size: 10px;
   }
   .Media-Container {
     gap: 8px;
