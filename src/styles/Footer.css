@@ -326,6 +326,9 @@
 
 /* Large Mobile (576px and below) */
 @media (max-width: 576px) {
+  .Footer {
+    margin-top: 20px;
+  }
   .Contact-Container {
     padding: 30px;
   }
@@ -336,26 +339,28 @@
     gap: 15px;
   }
   .Contact-Name {
-    font-size: 16px;
+    font-size: 12px;
   }
   .Contact-Input {
     height: 40px;
+    font-size: 10px;
   }
   .Contact-Input-Message {
     height: 160px;
+    font-size: 10px;
   }
   .Request-Button {
-    font-size: 14px;
+    font-size: 12px;
     padding: 8px;
   }
   .Contact-Title {
-    font-size: 25px;
+    font-size: 16px;
   }
   .Quote,
   .Contact-Details,
   .Right,
   .Menu-chosen {
-    font-size: 14px;
+    font-size: 12px;
   }
   .Media-Container {
     gap: 10px;

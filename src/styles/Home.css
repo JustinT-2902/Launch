@@ -12,9 +12,9 @@
 }
 
 .ProfileImage{
-  width: 100%;
+  width: 220px;
   border: 2px solid #dfad2e;
-  border-radius: 50px;
+  border-radius: 50%;
 }
 
 
@@ -79,6 +79,7 @@
   padding: 2px;
   background-color: #dfad2e;
   cursor: pointer;
+  gap: 20px;
 }
 
 .View {
@@ -128,9 +129,10 @@
   height: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  padding: 50px 15px;
+  justify-content: space-between;
+  padding: 50px 100px;
   gap: 10px;
+  width: 100%;
 }
 
 .About-Me-Content {
@@ -143,6 +145,10 @@
   width: 40px;
   height: 5px;
   background-color: #dfad2e;
+}
+
+.YellowA-Line{
+  margin-top: 20px;
 }
 
 .Ab {
@@ -188,9 +194,7 @@ font-size: 16px;
   margin-top: 50px;
 }
 
-.View-About{
-  border: 2px solid white;
-}
+
 
 .CV-Container {
   display: flex;
@@ -219,7 +223,8 @@ font-size: 16px;
   height: auto;
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
+  padding: 80px 100px;
+  gap: 50px;
 }
 
 .All-Heading {
@@ -256,15 +261,14 @@ font-size: 16px;
 }
 
 .Services-Sub {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
   flex-wrap: wrap;
 }
 
 .Services-Sub-Container {
-  width: 450px;
+  width: 100%;
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -300,8 +304,9 @@ font-size: 16px;
   height: auto;
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
+  padding: 80px 100px;
   background-color: var(--white-smoke);
+  gap: 50px
 }
 .Heading-Tools {
   display: flex;
@@ -360,7 +365,7 @@ font-size: 16px;
   height: auto;
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
+  padding: 80px 100px;
 }
 .Action-Projects {
   margin-bottom: 17px;
@@ -369,7 +374,7 @@ font-size: 16px;
 .Projects-Sub {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 50px 100px;
   gap: 30px;
   flex-wrap: wrap;
@@ -379,6 +384,7 @@ font-size: 16px;
   width: 450px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   border: 3px solid #dfad2e;
   border-radius: 20px;
   background-color: var(--white-smoke);
@@ -409,7 +415,7 @@ font-size: 16px;
 .Projects-Title {
   display: flex;
   flex-direction: row;
-  width: 65px;
+  width: 120px;
   font-size: 16px;
   font-weight: 600;
   color: black;
@@ -444,7 +450,7 @@ font-size: 16px;
 
 @media screen and (max-width: 576px) {
   .home-page {
-    margin-top: 60px;
+    margin-top: 80px;
     width: 100%;
   }
   .Introduction {
@@ -492,8 +498,8 @@ font-size: 16px;
     border-width: 1px;
   }
   .ProfileImage {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
   }
 
  /* About Me Section */
@@ -506,7 +512,7 @@ font-size: 16px;
     padding: 25px 15px;
   }
   .About-Me-Content {
-    width: 190px;
+    width: 250px;
     gap: 5px;
   }
   .Ab {
@@ -566,7 +572,6 @@ font-size: 16px;
   }
   .Services-Sub {
     padding: 15px 0px;
-    gap: 8px;
   }
   .Services-Sub-Container {
     height: 130px;
@@ -641,6 +646,208 @@ font-size: 16px;
   }
   .Action-Container{
     margin-bottom: 5px;
+  }
+  .ArrowP-Icon {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .home-page {
+    margin-top: 60px;
+    width: 100%;
+  }
+  .Introduction {
+    margin-bottom: 23px;
+    padding: 0;
+  }
+  .Green-Line {
+    width: 17px;
+    height: 3px;
+    margin-top: 20px;
+  }
+  .Heading {
+    font-size: 8px;
+  }
+  .Sub-Head {
+    font-size: 12px;
+    gap: 0;
+  }
+  .Position {
+    font-size: 12px;
+  }
+  .ActionHead {
+    margin-top: 8px;
+  }
+  .View {
+    font-size: 6px;
+    padding: 4px 6px;
+  }
+  .Arrow-Container {
+    width: 16px;
+    height: 16px;
+  }
+  .Arrow-Icon {
+    width: 7px;
+    height: 7px;
+  }
+  .Hire {
+    font-size: 6px;
+    padding: 4px 6px 3px 6px;
+    border-width: 1px;
+  }
+  .ProfileImage {
+    width: 90px;
+    height: 90px;
+  }
+
+ /* About Me Section */
+  .YellowA-Line {
+    height:2px;
+    width: 25px;
+    margin-top: 8px;
+  }
+  .About-Me-Container {
+    padding: 25px 15px;
+  }
+  .About-Me-Content {
+    width: 200px;
+    gap: 5px;
+  }
+  .Ab {
+    font-size: 12px;
+  }
+  .Who-is {
+    font-size: 10px;
+  }
+  .JustinT {
+    font-size: 10px;
+  }
+  .Description-Container {
+    margin-top: 10px;
+    gap: 10px;
+  }
+  .Description {
+    font-size: 12px;
+  }
+  .Sub-Description {
+    font-size: 8px;
+  }
+  .Action-About {
+    margin-top: 20px;
+  }
+  .About-Icon {
+    width: 20px;
+    height: 20px;
+  }
+  .CV-Container {
+    padding: 1px 10px;
+  }
+  .Download-Icon {
+    width: 15px;
+    height: 15px;
+  }
+  .CV {
+    font-size: 6px;
+  }
+
+  /* Services Section */
+  .Yellow-Line {
+    height: 3px;
+    width: 15px;
+  }
+  .Services {
+    margin-top: 25px;
+    padding: 0px 25px;
+  }
+  .Heading-Content{
+    gap: 5px;
+  }
+  .Heading-Text {
+    font-size: 12px;
+  }
+  .Sub-Heading-Text {
+    font-size: 12px;
+  }
+  .Services-Sub {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px 0px;
+  }
+  .Services-Sub-Container {
+    height: 130px;
+    border-radius: 13px;
+  }
+  .Services-icon {
+    width: 38px;
+    padding: 8px;
+    border-width: 2px;
+    border-radius: 23px;
+    margin: 8px;
+  }
+  .Services-Sub-Content {
+    font-size: 12px;
+    margin-left: 8px;
+  }
+  .Services-Sub-Details {
+    font-size: 10px;
+    margin-left: 8px;
+  }
+
+  /* Tools Section */
+  .Tools {
+    margin-top: 25px;
+    padding: 20px;
+  }
+  .Tool-Sub-Container {
+    gap: 15px;
+    padding: 0px 25px;
+  }
+  .Tool-Icon-Field {
+    width: 50px;
+  }
+  .Tool-Icon-Container {
+    width: 42px;
+    height: 42px;
+  }
+  .Tool-Icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+  }
+  .Icon-Name {
+    font-size: 8px;
+  }
+
+
+
+  /* Projects Section */
+  .Projects {
+    margin-top: 25px;
+    padding: 0px 25px;
+  }
+  .Projects-Sub {
+    padding: 15px 0px;
+    gap: 15px;
+  }
+  .Projects-Sub-Container {
+    padding: 8px;
+    border-radius: 13px;
+  }
+  .Project-Image {
+    border-radius: 13px;
+  }
+  .Projects-Title {
+    font-size: 8px;
+    padding: 3px 6px;
+    margin-top: 8px;
+  }
+  .Project-Name {
+    font-size: 12px;
   }
   .ArrowP-Icon {
     width: 25px;

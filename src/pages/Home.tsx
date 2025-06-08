@@ -75,7 +75,7 @@ const Home = () => {
               Coperation)
             </p>
             <div className="Action-Container Action-About">
-              <div className="View-Container View-About">
+              <div className="View-Container">
                 <div className="View">More About Me</div>
                 <div className="Arrow-Container">
                   <img
